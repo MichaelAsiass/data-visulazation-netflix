@@ -1,0 +1,99 @@
+body {
+  background-color: #000;
+  
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+}
+
+button,
+a {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#hero {
+  background-image: url("path/to/image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero-content button {
+  font-size: 18px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  right: 10;
+  left: 10;
+  bottom: 10;
+  width: 135px;
+  height: 70px;
+}
+
+tableauPlaceholder {
+  position: relative;
+  overflow: hidden;
+
+}
+
+tableauViz {
+  display: none;
+  border: none;
+}
